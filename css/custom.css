@@ -42,7 +42,7 @@
     #fae5ff,
     #faffe6d5,
     #fae5ffd1,
-    #ffecf3c7,
+    #97e4f9b4,
     #f8feff
   );
   box-shadow: 0 0 5px rgb(66, 68, 68);
@@ -100,7 +100,7 @@
 
 /* 网页样式设置 */
 :root {
-  --trans-light: rgba(255, 255, 255, 0.7);
+  --trans-light: rgba(255, 255, 255, 0.6);
   --trans-dark: rgba(16, 15, 15, 0.267);
   --border-style: 1px solid rgb(255, 237, 251);
   --backdrop-filter: blur(10px) saturate(200%);
@@ -134,7 +134,7 @@ div#archive {
 
 /* 导航栏 */
 #page-header.nav-fixed #nav {
-  background: rgba(255, 255, 255, 0.825);
+  background: linear-gradient(90deg, #ffdcfad5, #b2ecfbcc);
   backdrop-filter: var(--backdrop-filter);
 }
 
@@ -312,3 +312,13 @@ div#archive {
     text-shadow: #5636ed 0 0 5px;
   }
 }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  /* 这里可以自定义图标大小 */
+  font-size: 3px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
