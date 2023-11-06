@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>自定义图标</title>
+      <link href="/posts/Pictures/iconfont/"/>
+      <url>/posts/Pictures/iconfont/</url>
+      
+        <content type="html"><![CDATA[<p>iconfont自定义图标一直无法正常显示，今天突然发现问题，图标没有正确的归属于iconfont族，把图标单独在custom.css中设置样式即可显示</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>发帖测试</title>
       <link href="/posts/Pictures/"/>
       <url>/posts/Pictures/</url>
