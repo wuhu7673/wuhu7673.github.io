@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4313055 */
+  /* Color fonts */
+  src: 
+       url('//at.alicdn.com/t/c/font_4313055_gnfdnywnpq7.woff2?t=1699257263269') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4313055_gnfdnywnpq7.woff?t=1699257263269') format('woff'),
+       url('//at.alicdn.com/t/c/font_4313055_gnfdnywnpq7.ttf?t=1699257263269') format('truetype');
+}
 /* 页脚与头图透明 */
 #footer {
     background: transparent !important;
@@ -127,7 +135,7 @@ div#archive {
 
 /* 导航栏 */
 #page-header.nav-fixed #nav {
-  background: linear-gradient(90deg, #ffdcfad5, #b2ecfbcc);
+  background: linear-gradient(90deg, #ffdcfaa1, #b2ecfb97);
   backdrop-filter: var(--backdrop-filter);
 }
 
@@ -583,15 +591,6 @@ div#archive {
   background-color: var(--theme-color);
 }
 
-.iconfont {
-  font-family: "iconfont" !important;
-  /* 这里可以自定义图标大小 */
-  font-size: 22px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .icon-shouye1 {
   font-family: 'iconfont';
   font-size: 23px;
@@ -626,13 +625,13 @@ div#archive {
 
 .icon-lianjie {
   font-family: 'iconfont';
-  font-size: 24px;
+  font-size: 26px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-shouye1 {
+.icon-zixun{
   font-family: 'iconfont';
   font-size: 22px;
   font-style: normal;
@@ -647,3 +646,17 @@ div#archive {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.icon-sousuo {
+  font-family: 'iconfont' ;
+  font-size: 23px !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme="dark"] #sakura{
+  display: none;
+}
+
+
