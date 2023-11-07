@@ -1,8 +1,8 @@
 
 
 .neko {
-    width: 45px;
-    height: 45px;
+    width: 85px;
+    height: 85px;
     background-image: url("https://wordspace.s3.bitiful.net/飘/fish.png");
     position: absolute;
     right: 32px;
@@ -13,10 +13,10 @@
     font-family: maobi;
     font-weight: 400;
     font-size: 16px;
-    color: #94daebc2;
+    color: #ffc1f3c2;
     display: none;
     transform-origin: right top; /* 设置变换的原点在右上角 */
-    transform: translate(45%,35%); /* 垂直居中对齐 */
+    transform: translate(49%,36%); /* 垂直居中对齐 */
     
 }
 

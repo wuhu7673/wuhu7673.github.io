@@ -28,7 +28,7 @@ if (document.body.clientWidth > 992) {
         $.fn.nekoScroll = function (option) {
             var defaultSetting = {
                 nekoname:'cat', //nekoname，相当于id
-                nekoImg:'https://wordspace.s3.bitiful.net/飘/fish.png', //neko的背景图片
+                nekoImg:'https://wordspace.s3.bitiful.net/duoduo.png', //neko的背景图片
                 scImg:"img/绳1.png", //绳子的背景图片
                 bgcolor:'#1e90ff', //背景颜色，没有绳子背景图片时有效
                 zoom:0.9, //绳子长度的缩放值
