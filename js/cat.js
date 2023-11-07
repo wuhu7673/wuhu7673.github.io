@@ -28,14 +28,14 @@ if (document.body.clientWidth > 992) {
         $.fn.nekoScroll = function (option) {
             var defaultSetting = {
                 nekoname:'cat', //nekoname，相当于id
-                nekoImg:'https://bu.dusays.com/2022/07/20/62d812db74be9.png', //neko的背景图片
+                nekoImg:'https://wordspace.s3.bitiful.net/飘/fish.png', //neko的背景图片
                 scImg:"img/绳1.png", //绳子的背景图片
                 bgcolor:'#1e90ff', //背景颜色，没有绳子背景图片时有效
                 zoom:0.9, //绳子长度的缩放值
-                hoverMsg:'你好~喵', //鼠标浮动到neko上方的对话框信息
-                right:'75px', //距离页面右边的距离
+                hoverMsg:'♪(^∇^*)', //鼠标浮动到neko上方的对话框信息
+                right:'74px', //距离页面右边的距离
                 fontFamily:'maobi', //对话框字体
-                fontSize:'14px', //对话框字体的大小
+                fontSize:'13px', //对话框字体的大小
                 color:'#1e90ff', //对话框字体颜色
                 scroWidth:'7px', //绳子的宽度
                 z_index:100, //不用解释了吧
