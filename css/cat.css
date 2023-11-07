@@ -1,8 +1,8 @@
 
 
 .neko {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     background-image: url("https://wordspace.s3.bitiful.net/飘/fish.png");
     position: absolute;
     right: 32px;
@@ -67,8 +67,8 @@
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: rgb(255, 255, 255);
-        background-image: -webkit-linear-gradient(45deg, rgba(227, 175, 235, 0.58) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+        background-color: rgb(158, 235, 254);
+        background-image: -webkit-linear-gradient(45deg, rgba(108, 181, 255, 0.58) 25%, transparent 25%, transparent 50%, rgba(0, 177, 253, 0.6) 50%, rgba(135, 208, 251, 0.674) 75%, transparent 75%, transparent);
         border-radius: 2em
     }
 
